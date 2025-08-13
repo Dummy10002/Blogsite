@@ -3,7 +3,7 @@
 [![React](https://img.shields.io/badge/React-19.x-blue?style=flat-square)](https://reactjs.org/)
 
 ## Description
-A React application with modern development practices, built for creating a blog site. This project utilizes a build system, frontend framework, and organized code structure to provide a solid foundation for development.
+A React-based blog site project utilizing various dependencies for a robust frontend experience.
 
 ## Features
 * Build System
@@ -13,35 +13,45 @@ A React application with modern development practices, built for creating a blog
 * Client-side Routing
 
 ## Tech Stack
-The project is built using the following technologies:
 * Node.js
 * JavaScript/TypeScript
 * React
-* @reduxjs/toolkit
-* @tailwindcss/vite
-* @tinymce/tinymce-react
-* appwrite
-* html-react-parser
-* react-dom
-* react-hook-form
-* react-redux
-* react-router-dom
+* Dependencies: 
+  * @reduxjs/toolkit
+  * @tailwindcss/vite
+  * @tinymce/tinymce-react
+  * appwrite
+  * html-react-parser
+  * react
+  * react-dom
+  * react-hook-form
+  * react-redux
+  * react-router-dom
 
 ## Prerequisites
-* Node.js (version 14.x or later)
+* Node.js (version 14.x)
+* npm or yarn package manager
 
 ## Installation
-To install the project, run the following command:
+To install the project dependencies, run the following command:
 ```bash
 npm install
 ```
+or
+```bash
+yarn install
+```
 
 ## Usage
-To start the application, run the following command:
+To start the development server, use the following command:
 ```bash
 npm run dev
 ```
-TODO: Add more usage instructions as necessary.
+or
+```bash
+yarn dev
+```
+Open your browser and navigate to `http://localhost:3000` to view the blog site.
 
 ## Project Structure
 The project is structured as follows:
@@ -60,15 +70,20 @@ The project is structured as follows:
 * `src/appwrite/`
 * `src/appwrite/Auth.js`
 * `src/appwrite/Config.js`
+* `src/components/`
+* `src/components/AuthLayout.jsx`
+* `src/components/Button.jsx`
+* `src/components/Footer/`
+* `src/components/Footer/Footer.jsx`
 
 ## Testing
-TODO: Add testing information or indicate that testing is not applicable.
+TODO: Testing information not available.
 
 ## Docker
-TODO: Add Docker information or indicate that Docker support is not applicable.
+TODO: Docker support not available.
 
 ## Contributing
-Contributions are welcome. To contribute to the project, please fork the repository and submit a pull request with your changes.
+Contributions are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.
 
 ## License
-TODO: Add license information.
+TODO: License information not available.
