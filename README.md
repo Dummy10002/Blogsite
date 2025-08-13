@@ -31,38 +31,28 @@ graph TD
     K -->|includes|> R[Signup]
     K -->|includes|> S[PostForm]
     K -->|includes|> T[PostCard]
-    K -->|includes|> U[AuthLayout]
-    K -->|includes|> V[Login]
-    K -->|includes|> W[Input]
-    K -->|includes|> X[Select]
-    K -->|includes|> Y[Button]
 ```
 
 ## ✨ Recent Updates
-- Updated README.md via README Generator
+* Updated README.md via README Generator
 
 ## 🛠️ Tech Stack
-- Node.js
-- JavaScript/TypeScript
-- React
-- @reduxjs/toolkit
-- @tailwindcss/vite
-- @tinymce/tinymce-react
-- appwrite
-- html-react-parser
-- react-hook-form
-- react-redux
-- react-router-dom
+* Languages: JavaScript
+* Frameworks: React
+* Libraries: React Router DOM, Redux, Vite
+* Databases: None
 
 ## 🏁 Getting Started
 ### Prerequisites
-- Node.js (14.x or higher)
-- npm or yarn
+* Node.js 14.x
+* npm or yarn
 ### Installation
 1. Clone the repository: `git clone https://github.com/username/blogsite.git`
 2. Install dependencies: `npm install` or `yarn install`
 ### Running
 1. Start the development server: `npm run dev` or `yarn dev`
-2. Open your browser and navigate to `http://localhost:3000`
+2. Build the application: `npm run build` or `yarn build`
+3. Preview the application: `npm run preview` or `yarn preview`
 
-Note: No API endpoints are provided as the project is primarily focused on the frontend. However, the project uses React Router DOM for client-side routing, and the routes are defined in the `src/main.jsx` file.
+## API Endpoints
+TODO: List sample API endpoints for the backend API. Since the project type is Full-Stack, this section should include endpoints for the backend API. However, based on the provided code, the backend API endpoints are not specified.
